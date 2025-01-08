@@ -1,0 +1,120 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Fredoka:wght@300..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Fredoka:wght@300..700&family=Lora:ital,wght@1,400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Fredoka:wght@300..700&family=Lora:ital,wght@1,400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Rubik+Wet+Paint&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Fredoka:wght@300..700&family=Lora:ital,wght@1,400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Rubik+Wet+Paint&family=Satisfy&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.font2{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.font3{
+  font-family: "Mulish", sans-serif;
+  font-weight:900;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.copy{
+   font-size: 13px;
+}
+
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Fredoka:wght@300..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Rubik+Wet+Paint&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Fredoka:wght@300..700&family=Lora:ital,wght@1,400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Rubik+Wet+Paint&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Fredoka:wght@300..700&family=Lora:ital,wght@1,400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Rubik+Wet+Paint&family=Satisfy&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Fredoka:wght@300..700&family=Lora:ital,wght@1,400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Rubik+Wet+Paint&family=Satisfy&display=swap');
+ 
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+ 
+ a.active hr{
+     display:block;
+ }
+ .myfont {
+   font-family: "Quicksand", sans-serif;
+   font-optical-sizing: auto;
+ }
+ .font1{
+   font-family: "Lora", serif;
+   font-optical-sizing: auto;
+   font-weight:400;
+   font-style: italic;
+ }
+ .font2{
+     font-family: "Satisfy", cursive;
+     font-weight: 400;
+     font-style: normal;
+   
+ }
+ .font3{
+   font-family: "Mulish", sans-serif;
+   font-weight:900;
+   font-style: normal;
+   font-size: 35px;
+ }
+ .ff{
+   font-size:13px;
+   transform: translateX(-11%);
+ }
+ .back{
+   background-color: rgba(192, 191, 191, 0.4);
+ }
+ /* .back2{
+   background-color: aqua; 
+    padding:5px 15px 5px 0px; 
+ } */
+ .copy{
+    font-size: 13px;
+ }
+ input{
+   outline: none;
+ }
+ .move{
+   transform: translateY(13%);
+ }
+ .borderr{
+   border: 1px solid #000000;
+   font-size: 13px;
+   padding:3px;
+   outline: none;
+ }
+ .iconn{
+  display: flex;
+ }
+ .ic{
+   align-content: center;
+   border: 1px solid white;
+   border-radius: 50%;
+   color:white;
+   width:26px;
+   height:24px;
+   padding:5px;
+ }
+ /* .back3{
+   background-color: #f0f0f0;
+ }
+ .back4{
+   background-color: aquamarine;
+ }
+ .back5{
+   background-color: #665;
+ } */
+ 
+ 
+ @media  (max-width: 640px) {
+ 
+   a.active{
+     background-color: black;
+     color: white;
+ } 
+ }
