@@ -9,7 +9,7 @@ import Login from "./pages/Login";
 import Placeorders from "./pages/Placeorders";
 import Orders from "./pages/Orders";
 import Navbar from "./components/Navbar";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
