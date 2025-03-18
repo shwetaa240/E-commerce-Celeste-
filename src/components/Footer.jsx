@@ -6,7 +6,7 @@ import { faXTwitter,faInstagram, faFacebookF } from "@fortawesome/free-brands-sv
 const Footer = () => {
   return (
     <>
-    <div className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-2 mt-20 text-sm bg-blue-950 text-white p-5">
+    <div className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-2 mt-20 text-sm bg-gray-600 text-white p-5">
       <div>
         <img src={assets.logo2} className="mb-5 w-40" />
         <p>
@@ -32,12 +32,12 @@ const Footer = () => {
       <div>
         <h3 className="text-lg font-semibold mb-2">Get In Touch</h3>
         <ul className="list-none mb-4">
-            <li className="mb-2">+91-9555291131</li>
+            <li className="mb-2">+91-955529XXX1</li>
             <li className="mb-2">shwsrivastava07@gmail.com</li>
         </ul>
       </div>
       </div>
-      <div className="flex flex-col items-center bg-blue-950 text-white pb-1">
+      <div className="flex flex-col items-center bg-gray-600 text-white pb-1">
       <p className="w-full h-[1px] bg-white"></p>
       <p className="copy">Copyright@Shweta Srivastava &emsp;&emsp;All rights reserved.</p>
       </div>

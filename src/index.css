@@ -109,7 +109,9 @@
  .back5{
    background-color: #665;
  } */
- 
+ ::-webkit-scrollbar{
+  display: none;
+ }
  
  @media  (max-width: 640px) {
  

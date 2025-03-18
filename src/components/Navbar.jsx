@@ -1,13 +1,15 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { assets } from "../assets/assets.js";
 import { Link, NavLink } from "react-router-dom";
+import { Shopcontext } from "../context/Shopcontext.jsx";
 
 const Navbar = () => {
   const [visible,setVisible]=useState(false); 
+  const {getcart}=useContext(Shopcontext);
   return (
     <div className="flex items-center justify-between py-5 font-medium ">
       <Link to='/'><img src={assets.logo2} className="w-36" alt="" /></Link>
-      <ul className="hidden sm:flex gap-5 text-sm text-gray-700">
+      <ul className="hidden sm:flex gap-5 text-md text-gray-700">
         <NavLink to="/" className="flex flex-col items-center gap-1">
           <p>HOME</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
@@ -41,7 +43,7 @@ const Navbar = () => {
         </div>
         <Link to='/cart' className='relative'>
         <img src={assets.cart} className='w-6 min-w-6' alt=""></img>
-        <p className='absolute right-[-5px] bottom-[-5px] w-4 text-center leading-4 bg-black text-white aspect-square rounded-full text-[8px] '>10</p>
+        <p className='absolute right-[-5px] bottom-[-5px] w-4 text-center leading-4 bg-black text-white aspect-square rounded-full text-[8px] '>{getcart()}</p>
         </Link>
         <img onClick={()=>setVisible(true)} src={assets.menu} className='w-7 cursor-pointer sm:hidden'></img>
       </div>

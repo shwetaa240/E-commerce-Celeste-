@@ -9,7 +9,7 @@ const Collection = () => {
   const { products } = useContext(Shopcontext);
   const [showFilter, setShowFilter] = useState(true);
   const [isactive, Setisactive] = useState(false);
- const[filterProducts,setFilterProducts]=useState([]);  //([])
+ const[filterProducts,setFilterProducts]=useState([]);  
  const [category,setcategory]=useState([]);
  const[subcat,setsubcat]=useState([]);
 
