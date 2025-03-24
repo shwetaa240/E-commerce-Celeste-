@@ -76,7 +76,7 @@ import sw3 from "./sw3.png";
 import sw4 from "./sw4.png";
 import hb1 from "./hb1.png";
 import hb2 from "./hb2.png";
-
+import dust from "./dust.png";
 export const assets = {
   logo,
   logo2,
@@ -87,6 +87,7 @@ export const assets = {
   menu,
   drop,
   hero,
+  dust,
   customer,
   retrn,
   exchange,
@@ -109,7 +110,7 @@ export const products = [
     id: "aaaaa",
     name: "Women Square Neck Dress",
     description:
-      "A lightweight,red colour,floral short top",
+      " Featuring a flattering square neckline and a flowing silhouette, this dress is perfect for evening events, formal gatherings, or date nights. The rich red hue adds a bold touch, making you stand out effortlessly.",
     price: 450,
     image: [d32,dd32,ddd32,d332],
     category: "Women",
@@ -122,7 +123,7 @@ export const products = [
     id: "aaaab",
     name: "Black Sleeveless Midi",
     description:
-      "Knee length, sleeveless ,black ,close-fitting midi lorem ispum lorem de wih wqzxo ryi loxso rem  ",
+      "Classic and effortlessly chic, this black dress is a must-have in your wardrobe. Designed with a sleek silhouette and a timeless appeal, it's perfect for evening outings, parties, or formal events. Dress it up with heels or keep it casual with flats for a versatile look.",
     price: 280,
     image: [i21, i23, i24, i25],
     category: "Women",
@@ -135,7 +136,7 @@ export const products = [
     id: "aaaac",
     name: "Women One Sleeve Top",
     description:
-      "A lightweight,cotton,summer top",
+      "A timeless combination of elegance and boldness, this outfit features a crisp white top paired with a sleek black mini skirt. Whether you're heading out for brunch or a night out, this chic ensemble gives you the perfect balance of class and confidence.",
     price: 190,
     image: [i11,i112],
     category: "Women",
@@ -146,9 +147,9 @@ export const products = [
   },
   {
     id: "aaaad",
-    name: "Men Round Neck Pure Cotton T-shirt",
+    name: "Men Anime Inspired T-shirt",
     description:
-      "A pullover shirt, designer",
+      "Subtle yet stylish, this anime-inspired t-shirt features a clean design with artistic elements. Perfect for those who love anime but prefer a minimalist aesthetic, this tee pairs well with jeans or joggers for a laid-back, cool look",
     price: 250,
     image: [i267,i268,i2688,i2679],
     category: "Men",
@@ -179,15 +180,15 @@ export const products = [
     image: [jj,jjj,jj1],
     category: "Women",
     subcat: "Dress",
-    sizes: ["M", "L", "XL"],
+    sizes: ["S","M", "L", "XL"],
     date: 1716621345448,
     bestseller: false,
   },
   {
     id: "aaaag",
-    name: "Men Over Shirt Pure Cotton",
+    name: "Men T-Shirt Pure Cotton",
     description:
-      "Check shirt, black, over wear",
+      "Stay effortlessly stylish with this comfortable and trendy t-shirt. Designed for a perfect fit, it features soft, breathable fabric that keeps you cool all day. Whether you're pairing it with jeans for a casual day out or layering it under a jacket, this tee is a wardrobe essential.",
     price: 100,
     image: [b21,b22],
     category: "Men",
@@ -198,9 +199,9 @@ export const products = [
   },
   {
     id: "aaaah",
-    name: "Men Shiny Round Neck Shirt",
+    name: "Men Round Neck Shirt",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+      "Elevate your casual style with this elegant maroon-colored shirt.A perfect balance between simplicity and creativity. Pair it with dark jeans or shorts for a refined yet relaxed outfit.",
     price: 200,
     image: [i78],
     category: "Men",
@@ -226,12 +227,12 @@ export const products = [
     id: "aaaaj",
     name: "Men Denim Over Shirt",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+      "Classic meets contemporary with this stylish shirt. Crafted from high-quality fabric, it offers a sharp, tailored fit that’s perfect for both casual and formal occasions",
     price: 200,
     image: [i89],
     category: "Men",
     subcat: "Topwear",
-    sizes: ["M", "L", "XL"],
+    sizes: ["S","M", "L", "XL"],
     date: 1716621345448,
     bestseller: false,
   },
@@ -239,7 +240,7 @@ export const products = [
     id: "aaaak",
     name: "Men Ethnic Wear",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+      "Timeless and stylish, this men's kurta is designed for both comfort and elegance. Crafted from high-quality fabric, it offers a relaxed fit with intricate detailing, making it ideal for festive occasions, traditional celebrations, or casual wear. Pair it with churidar or jeans for a modern ethnic look.",
     price: 550,
     image: [e1,e2,e3],
     category: "Men",
@@ -252,7 +253,7 @@ export const products = [
     id: "aaaal",
     name: "Men Designer Pure Cotton T-shirt",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+      "Elevate your casual style with this elegant cream-colored t-shirt. Designed with a unique print on one side, this tee strikes the perfect balance between simplicity and creativity. Pair it with dark jeans or shorts for a refined yet relaxed outfit.",
     price: 310,
     image: [t1,t2,t3,t4],
     category: "Men",
@@ -265,19 +266,19 @@ export const products = [
     id: "aaaam",
     name: "Women Saree Festive Wear",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+      "Soft, elegant, and effortlessly stylish, this pink saree is designed for all-day comfort. Made from lightweight fabric, it drapes beautifully and is perfect for casual outings, festive celebrations, or workwear. Pair it with minimal jewelry for a graceful and sophisticated look.",
     price: 490,
     image: [s1,s2,s3],
     category: "Women",
     subcat: "Ethnic",
-    sizes: ["S", "M", "L"],
+    sizes: ["Free"],
     date: 1716634345448,
     bestseller: true,
   },
 
   {
     id: "aaaan",
-    name: "Women Round Neck Cotton Top",
+    name: "Women Sequin Crop Top",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with",
     price: 100,
@@ -290,10 +291,10 @@ export const products = [
   },
   {
     id: "aaaao",
-    name: "Women Round Neck Cotton Top",
+    name: "Women Strappy Blue Dress",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 100,
+      "Turn heads with this stunning strappy dress, crafted from shimmering blue fabric that catches the light beautifully. Designed with a sleek silhouette and delicate straps, this dress is perfect for evening parties, cocktail events, or special occasions. Pair it with heels and minimal accessories for a dazzling look.",
+    price: 200,
     image: [d0,d01],
     category: "Women",
     subcat: "Dress",
@@ -302,10 +303,10 @@ export const products = [
     bestseller: true,
   }, {
     id: "aaaap",
-    name: "Women Round Neck Cotton Top",
+    name: "Women Red Strap Dress",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with",
-    price: 100,
+    price: 180,
     image: [d1],
     category: "Women",
     subcat: "Dress",
@@ -314,21 +315,21 @@ export const products = [
     bestseller: true,
   }, {
     id: "aaaaq",
-    name: "Women Round Neck Cotton Top",
+    name: "Black Flare Dress",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with",
     price: 100,
     image: [d2],
     category: "Women",
     subcat: "Topwear",
-    sizes: ["S", "M", "L"],
+    sizes: ["XS","S", "M", "L"],
     date: 1716634345448,
     bestseller: true,
   }, {
     id: "aaaar",
     name: "Women Square Neck Top",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with",
+      "Stylish black top featuring a unique designer neckline and short sleeves. Crafted for comfort and elegance, this top pairs perfectly with jeans, skirts, or trousers, adding a touch of sophistication to your outfit.",
     price: 270,
     image: [d3,dd3],
     category: "Women",
@@ -359,7 +360,7 @@ export const products = [
     image: [m2],
     category: "Men",
     subcat: "Topwear",
-    sizes: ["M", "L", "XL"],
+    sizes: ["S","M", "L", "XL"],
     date: 1716621345448,
     bestseller: true,
   },
@@ -367,7 +368,7 @@ export const products = [
     id: "aaaau",
     name: "Pink Embroided Suit",
     description:
-      "Embroided pink suit ,designer ,party wear ",
+      "Experience grace and sophistication with this beautifully designed women's kurta. Featuring exquisite embroidery and a flattering fit, this kurta is perfect for festive occasions,parties. Pair it with leggings or palazzos for a refined ethnic look.",
     price: 600,
     image: [su14,su1,su13,su15,su12],
     category: "Women",
@@ -378,7 +379,7 @@ export const products = [
   },
   {
     id: "aaaav",
-    name: "Men Over Shirt",
+    name: "Men Over T-Shirt",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with",
     price: 300,
@@ -393,12 +394,12 @@ export const products = [
     id: "aaaaw",
     name: "Elegant Kurta Set",
     description:
-      "Floral Embroidered Sequinned Liva Kurta with Trousers & Dupatta",
+      "Floral Embroidered Sequinned Liva Kurta with Trousers & Dupatta.Experience grace and sophistication with this beautifully designed women's kurta. Featuring exquisite embroidery and a flattering fit, this kurta is perfect for festive occasions.",
     price: 500,
     image: [ps1, ps2, ps3],
     category: "Women",
     subcat: "Ethnic",
-    sizes: ["S","M", "L", "XL"],
+    sizes: ["XS","S","M", "L"],
     date: 1716621345448,
     bestseller: true,
   },
