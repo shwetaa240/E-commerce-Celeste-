@@ -77,7 +77,20 @@ import sw4 from "./sw4.png";
 import hb1 from "./hb1.png";
 import hb2 from "./hb2.png";
 import dust from "./dust.png";
+import rzpay from "./rzpay.png";
+import stripe from "./stripe.png";
+import cdpay from "./cdpay.png";
+import store from "./store.png";
+import appoint from"./appoint.png";
+import custom from "./custom.png";
+
+
 export const assets = {
+  custom,
+  appoint,
+  rzpay,
+  stripe,
+  cdpay,
   logo,
   logo2,
   i21,
@@ -90,6 +103,7 @@ export const assets = {
   dust,
   customer,
   retrn,
+  store,
   exchange,
   download,
   star,
